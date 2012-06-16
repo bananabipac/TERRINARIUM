@@ -3,9 +3,9 @@ using System.Collections;
 using System.Collections.Generic;
 
 public class BroyeurScript : MonoBehaviour {
-	
-	public GameObject lapinStadeFinal;
+
 	public List<GameObject> transformation;
+	public GameObject[] morceaux;
 	public int stockage;
 	public GameObject sortie;
 		
@@ -48,8 +48,7 @@ public class BroyeurScript : MonoBehaviour {
 							timeInstanceTmp += 1*Time.deltaTime;
 						}
 						
-						//Debug.Log("fdgfd");
-						GameObject morceau = (GameObject) Instantiate(lapinStadeFinal);
+						GameObject morceau = (GameObject) Instantiate(morceaux[i]);
 						morceau.transform.position = this.transform.position;
 						timeInstanceTmp = 0;
 						Usure();
@@ -66,8 +65,8 @@ public class BroyeurScript : MonoBehaviour {
 							timeInstanceTmp += 1*Time.deltaTime;
 						}
 						
-						//Debug.Log("fdgfd");
-						GameObject morceau = (GameObject) Instantiate(lapinStadeFinal);
+						//Debug.Log(i);
+						GameObject morceau = (GameObject) Instantiate(morceaux[i]);
 						morceau.transform.position = this.transform.position;
 						timeInstanceTmp = 0;
 						Usure();

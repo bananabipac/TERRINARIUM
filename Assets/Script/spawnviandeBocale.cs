@@ -1,5 +1,7 @@
 using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
+
 
 public class spawnviandeBocale : MonoBehaviour {
 
@@ -7,6 +9,8 @@ public class spawnviandeBocale : MonoBehaviour {
 	public float spawnDelay;
 	public GameObject spawnObject;
 	public float forcePropulse;
+	public List<GameObject> transformation;
+	public int stock;
 	// Use this for initialization
 	
 	private float expulseTimer;

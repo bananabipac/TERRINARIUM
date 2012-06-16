@@ -15,6 +15,16 @@ public class TapisRoulant : MonoBehaviour {
 		}
     }
 	
+	void OnTriggerExit(Collider other) {
+        if(other.gameObject.layer==LayerMask.NameToLayer("Boite")||other.gameObject.layer==LayerMask.NameToLayer("Lapin")){
+			//other.gameObject.transform.Translate(-1*translateSpeed*Time.deltaTime,0,0);
+			if (other.attachedRigidbody) {
+				other.attachedRigidbody.AddForce(Vector3.right * 700);
+			}
+		}
+    }
+	
+	
 	
 	
 }

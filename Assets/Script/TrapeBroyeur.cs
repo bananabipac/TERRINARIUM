@@ -51,8 +51,9 @@ public class TrapeBroyeur : MonoBehaviour {
 		
 		lapin.rigidbody.isKinematic = true;
 		Vector3 vec = broyeur.sortie.transform.position;
-		vec.z = 10;
+		vec.z = -100;
 		lapin.transform.position = vec;
+		
 		
 	}
 	
