@@ -50,7 +50,9 @@ public class TrapeBroyeur : MonoBehaviour {
 	public void MoveLapin(GameObject lapin){
 		
 		lapin.rigidbody.isKinematic = true;
-		lapin.transform.position = broyeur.sortie.transform.position;
+		Vector3 vec = broyeur.sortie.transform.position;
+		vec.z = 10;
+		lapin.transform.position = vec;
 		
 	}
 	

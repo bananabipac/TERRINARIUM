@@ -7,8 +7,8 @@ public class DetectAssaisonement : MonoBehaviour {
 	public float stopDuration;
 	
 	void OnTriggerEnter(Collider other) {
-//        if(other.gameObject.layer==LayerMask.NameToLayer("Boite")){
+       if(other.gameObject.layer==LayerMask.NameToLayer("Lapin")){
 			spawn.GetComponent<SpawnViande>().Expulse(stopDuration);
-//		}
+		}
     }
 }

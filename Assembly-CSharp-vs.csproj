@@ -37,14 +37,13 @@
     <Reference Include="System.XML" />
 	<Reference Include="System.Core" />
 	<Reference Include="UnityEngine">
-	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	  <HintPath>C:/Program Files (x86)/3D/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
 	</Reference>
 	<Reference Include="UnityEditor">
-	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	  <HintPath>C:/Program Files (x86)/3D/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Particules\script_cs\BloodScript.cs" />
      <Compile Include="Assets\Script\BroyeurScript.cs" />
      <Compile Include="Assets\Script\DestroyObjectOnEnter.cs" />
      <Compile Include="Assets\Script\DetectAssaisonement.cs" />
@@ -62,6 +61,7 @@
      <Compile Include="Assets\Script\TrapeBroyeur.cs" />
      <Compile Include="Assets\Script\infoUser.cs" />
      <Compile Include="Assets\Script\palScript.cs" />
+     <Compile Include="Assets\Script\spawnviandeBocale.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">

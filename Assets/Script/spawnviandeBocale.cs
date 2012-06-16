@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections;
 
-public class SpawnViande : MonoBehaviour {
+public class spawnviandeBocale : MonoBehaviour {
 
 	private float spawnTimer;
 	public float spawnDelay;
