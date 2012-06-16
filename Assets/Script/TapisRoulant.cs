@@ -23,6 +23,7 @@ public class TapisRoulant : MonoBehaviour {
 	}
 	
 	void Usure(){
+		/*
 		usure-=usureParUtilisation;
 		if(usure<75){
 			foreach(Transform t in usureLvls[0].transform){
@@ -42,6 +43,7 @@ public class TapisRoulant : MonoBehaviour {
 				}
 			}
 		}
+		*/
 	}
 	void OnTriggerEnter(Collider other) {
         if(other.gameObject.layer==LayerMask.NameToLayer("Lapin")||other.gameObject.layer==LayerMask.NameToLayer("Boite")){
@@ -62,7 +64,7 @@ public class TapisRoulant : MonoBehaviour {
         if(other.gameObject.layer==LayerMask.NameToLayer("Boite")||other.gameObject.layer==LayerMask.NameToLayer("Lapin")){
 			//other.gameObject.transform.Translate(-1*translateSpeed*Time.deltaTime,0,0);
 			if (other.attachedRigidbody) {
-				other.attachedRigidbody.AddForce(Vector3.right * 400);
+				other.attachedRigidbody.AddForce(Vector3.right * 300);
 			}
 		}
     }

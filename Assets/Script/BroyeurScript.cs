@@ -47,7 +47,7 @@ public class BroyeurScript : MonoBehaviour {
 						morceau.transform.position = this.transform.position;
 						timeInstanceTmp = 0;
 					}
-					//Usure();
+					Usure();
 				}else{
 					
 					GameObject tmp = transformation[0];
@@ -65,7 +65,7 @@ public class BroyeurScript : MonoBehaviour {
 						morceau.transform.position = this.transform.position;
 						timeInstanceTmp = 0;
 					}
-					//Usure();
+					Usure();
 				}
 			}	
 		}

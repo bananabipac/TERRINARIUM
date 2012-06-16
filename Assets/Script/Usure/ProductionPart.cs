@@ -28,6 +28,7 @@ public class ProductionPart : MonoBehaviour {
 	public void Usure(){
 		usure-=usureParUtilisation;
 		if(usure<=80){
+			//Debug.Log( gameObject.name);
 			foreach(Transform t in usureLvls[0].transform){
 				t.gameObject.active=true;
 			}
