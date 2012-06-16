@@ -16,16 +16,20 @@ public class BroyeurScript : MonoBehaviour {
 	private float timeInstanceTmp ;
 	public bool pack;
 	
+	private float usure;
+	public float usureMax=100;
+	public float usureParUtilisation=1;
+	
 	// Use this for initialization
 	void Start () {
 		timeInstance = 0.1f;
-	
+		usure=usureMax;
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		
-		
+	
 		
 		if(transformation.Count >0){
 			time += 1*Time.deltaTime;
@@ -48,6 +52,7 @@ public class BroyeurScript : MonoBehaviour {
 						GameObject morceau = (GameObject) Instantiate(lapinStadeFinal);
 						morceau.transform.position = this.transform.position;
 						timeInstanceTmp = 0;
+						Usure();
 					}
 				}else{
 					
@@ -65,6 +70,7 @@ public class BroyeurScript : MonoBehaviour {
 						GameObject morceau = (GameObject) Instantiate(lapinStadeFinal);
 						morceau.transform.position = this.transform.position;
 						timeInstanceTmp = 0;
+						Usure();
 					}
 				}
 			}
@@ -74,7 +80,9 @@ public class BroyeurScript : MonoBehaviour {
 		
 	
 	}
-
+	void Usure(){
+		usure-=usureParUtilisation;
+	}
 	
 	
 	
