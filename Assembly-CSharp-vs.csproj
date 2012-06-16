@@ -37,13 +37,18 @@
     <Reference Include="System.XML" />
 	<Reference Include="System.Core" />
 	<Reference Include="UnityEngine">
+<<<<<<< HEAD
 	  <HintPath>C:/Program Files (x86)/3D/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+=======
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+>>>>>>> f5763d904c0b03d0fa5dfca999ee699100533c3f
 	</Reference>
 	<Reference Include="UnityEditor">
 	  <HintPath>C:/Program Files (x86)/3D/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
      <Compile Include="Assets\Script\BroyeurScript.cs" />
      <Compile Include="Assets\Script\MonteChargeScript.cs" />
      <Compile Include="Assets\Script\PopLapin.cs" />
@@ -55,6 +60,21 @@
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
       <Project>{EC3CC747-4CB4-E714-C1F4-20B83046494B}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
+=======
+     <Compile Include="Assets\BroyeurScript.cs" />
+     <Compile Include="Assets\PopLapin.cs" />
+     <Compile Include="Assets\Script\DestroyObjectOnEnter.cs" />
+     <Compile Include="Assets\Script\DetectAssaisonement.cs" />
+     <Compile Include="Assets\Script\DetectBoite.cs" />
+     <Compile Include="Assets\Script\DetectBoiteEmpacte.cs" />
+     <Compile Include="Assets\Script\EmpacteBoite.cs" />
+     <Compile Include="Assets\Script\PaleScript.cs" />
+     <Compile Include="Assets\Script\Spawn.cs" />
+     <Compile Include="Assets\Script\SpawnViande.cs" />
+     <Compile Include="Assets\Script\StockBoite.cs" />
+     <Compile Include="Assets\Script\TapisRoulant.cs" />
+     <Compile Include="Assets\Script\TapisRoulantBoite.cs" />
+>>>>>>> f5763d904c0b03d0fa5dfca999ee699100533c3f
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
