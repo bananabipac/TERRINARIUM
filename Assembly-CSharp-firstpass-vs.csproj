@@ -5,11 +5,11 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{6FBD0B66-72C5-C8E6-5459-336FD9009730}</ProjectGuid>
+	<ProjectGuid>{EC3CC747-4CB4-E714-C1F4-20B83046494B}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
-	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
 	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
 	<FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -44,27 +44,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Script\BroyeurScript.cs" />
-     <Compile Include="Assets\Script\DestroyObjectOnEnter.cs" />
-     <Compile Include="Assets\Script\DetectAssaisonement.cs" />
-     <Compile Include="Assets\Script\DetectBoite.cs" />
-     <Compile Include="Assets\Script\DetectBoiteEmpacte.cs" />
-     <Compile Include="Assets\Script\EmpacteBoite.cs" />
-     <Compile Include="Assets\Script\MonteChargeScript.cs" />
-     <Compile Include="Assets\Script\PaleScript.cs" />
-     <Compile Include="Assets\Script\PopLapin.cs" />
-     <Compile Include="Assets\Script\Spawn.cs" />
-     <Compile Include="Assets\Script\SpawnViande.cs" />
-     <Compile Include="Assets\Script\StockBoite.cs" />
-     <Compile Include="Assets\Script\TapisRoulant.cs" />
-     <Compile Include="Assets\Script\TapisRoulantBoite.cs" />
-     <Compile Include="Assets\Script\TrapeBroyeur.cs" />
-     <Compile Include="Assets\Script\infoUser.cs" />
-     <Compile Include="Assets\Script\palScript.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{EC3CC747-4CB4-E714-C1F4-20B83046494B}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+     <Compile Include="Assets\plugins\iTween.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
