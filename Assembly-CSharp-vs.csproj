@@ -37,21 +37,31 @@
     <Reference Include="System.XML" />
 	<Reference Include="System.Core" />
 	<Reference Include="UnityEngine">
-	  <HintPath>C:/Program Files (x86)/3D/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
 	</Reference>
 	<Reference Include="UnityEditor">
-	  <HintPath>C:/Program Files (x86)/3D/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
 	</Reference>
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Particules\script_cs\BloodScript.cs" />
+<<<<<<< HEAD
+=======
+     <Compile Include="Assets\Script\Boutons\BoutonDowngrader.cs" />
+     <Compile Include="Assets\Script\Boutons\BoutonReparer.cs" />
+     <Compile Include="Assets\Script\Boutons\BoutonUpgrader.cs" />
+     <Compile Include="Assets\Script\Boutons\ClickCatcher.cs" />
+>>>>>>> 261e0c1fddd6094bd572a741609c92f23982179e
      <Compile Include="Assets\Script\BroyeurScript.cs" />
+     <Compile Include="Assets\Script\Classes\Argent.cs" />
      <Compile Include="Assets\Script\DestroyObjectOnEnter.cs" />
      <Compile Include="Assets\Script\DetectAssaisonement.cs" />
      <Compile Include="Assets\Script\DetectBoite.cs" />
      <Compile Include="Assets\Script\DetectBoiteEmpacte.cs" />
      <Compile Include="Assets\Script\EmpacteBoite.cs" />
+     <Compile Include="Assets\Script\Hud\Hud.cs" />
      <Compile Include="Assets\Script\MonteChargeScript.cs" />
+     <Compile Include="Assets\Script\MonteChargeUsure.cs" />
      <Compile Include="Assets\Script\PaleScript.cs" />
      <Compile Include="Assets\Script\PopLapin.cs" />
      <Compile Include="Assets\Script\Spawn.cs" />
@@ -60,9 +70,14 @@
      <Compile Include="Assets\Script\TapisRoulant.cs" />
      <Compile Include="Assets\Script\TapisRoulantBoite.cs" />
      <Compile Include="Assets\Script\TrapeBroyeur.cs" />
+     <Compile Include="Assets\Script\Usure\ProductionPart.cs" />
      <Compile Include="Assets\Script\infoUser.cs" />
      <Compile Include="Assets\Script\palScript.cs" />
      <Compile Include="Assets\Script\spawnviandeBocale.cs" />
+     <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
+ <Reference Include="Assembly-UnityScript-firstpass">
+ <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
+ </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">

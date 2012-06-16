@@ -16,16 +16,11 @@ public class BroyeurScript : MonoBehaviour {
 	private float timeInstanceTmp ;
 	public bool pack;
 	
-	private float usure;
-	public float usureMax=100;
-	public float usureParUtilisation=1;
-	
 	// Use this for initialization
 	void Start () {
 		timeInstance = 0.1f;
-		usure=usureMax;
 	}
-	
+
 	// Update is called once per frame
 	void Update () {
 		
@@ -51,8 +46,8 @@ public class BroyeurScript : MonoBehaviour {
 						GameObject morceau = (GameObject) Instantiate(morceaux[i]);
 						morceau.transform.position = this.transform.position;
 						timeInstanceTmp = 0;
-						Usure();
 					}
+					Usure();
 				}else{
 					
 					GameObject tmp = transformation[0];
@@ -69,21 +64,15 @@ public class BroyeurScript : MonoBehaviour {
 						GameObject morceau = (GameObject) Instantiate(morceaux[i]);
 						morceau.transform.position = this.transform.position;
 						timeInstanceTmp = 0;
-						Usure();
 					}
+					Usure();
 				}
-			}
-			
+			}	
 		}
-		
-		
-	
 	}
+	
 	void Usure(){
-		usure-=usureParUtilisation;
+		GetComponent<ProductionPart>().Usure();
 	}
-	
-	
-	
 	
 }
