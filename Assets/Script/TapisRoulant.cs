@@ -37,7 +37,7 @@ public class TapisRoulant : MonoBehaviour {
 						t.gameObject.active=true;
 					}	
 					if(usure<0){
-						Debug.Log("OMG NOOB TU RUIIIIINEEEEEEEEEEEEEEEEEEEUH!");
+						//Debug.Log("OMG NOOB TU RUIIIIINEEEEEEEEEEEEEEEEEEEUH!");
 					}
 				}
 			}

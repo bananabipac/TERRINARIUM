@@ -5,11 +5,11 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{6FBD0B66-72C5-C8E6-5459-336FD9009730}</ProjectGuid>
+	<ProjectGuid>{CC4DFF78-AE65-B1F5-745A-7348A0E88174}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
-	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<AssemblyName>Assembly-UnityScript-firstpass</AssemblyName>
 	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
 	<FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -44,40 +44,8 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Particules\script_cs\BloodScript.cs" />
-     <Compile Include="Assets\Script\Boutons\BoutonDowngrader.cs" />
-     <Compile Include="Assets\Script\Boutons\BoutonReparer.cs" />
-     <Compile Include="Assets\Script\Boutons\BoutonUpgrader.cs" />
-     <Compile Include="Assets\Script\Boutons\ClickCatcher.cs" />
-     <Compile Include="Assets\Script\BroyeurScript.cs" />
-     <Compile Include="Assets\Script\Classes\Argent.cs" />
-     <Compile Include="Assets\Script\DestroyObjectOnEnter.cs" />
-     <Compile Include="Assets\Script\DetectAssaisonement.cs" />
-     <Compile Include="Assets\Script\DetectBoite.cs" />
-     <Compile Include="Assets\Script\DetectBoiteEmpacte.cs" />
-     <Compile Include="Assets\Script\EmpacteBoite.cs" />
-     <Compile Include="Assets\Script\Hud\Hud.cs" />
-     <Compile Include="Assets\Script\MonteChargeScript.cs" />
-     <Compile Include="Assets\Script\MonteChargeUsure.cs" />
-     <Compile Include="Assets\Script\PaleScript.cs" />
-     <Compile Include="Assets\Script\PopLapin.cs" />
-     <Compile Include="Assets\Script\Spawn.cs" />
-     <Compile Include="Assets\Script\SpawnViande.cs" />
-     <Compile Include="Assets\Script\StockBoite.cs" />
-     <Compile Include="Assets\Script\TapisRoulant.cs" />
-     <Compile Include="Assets\Script\TapisRoulantBoite.cs" />
-     <Compile Include="Assets\Script\TrapeBroyeur.cs" />
-     <Compile Include="Assets\Script\Usure\ProductionPart.cs" />
-     <Compile Include="Assets\Script\infoUser.cs" />
-     <Compile Include="Assets\Script\palScript.cs" />
-     <Compile Include="Assets\Script\spawnviandeBocale.cs" />
+     <Compile Include="Assets\Standard Assets\Particles\Legacy Particles\TimedObjectDestructor.js" />
      <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{EC3CC747-4CB4-E714-C1F4-20B83046494B}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
-    <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
-      <Project>{CC4DFF78-AE65-B1F5-745A-7348A0E88174}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

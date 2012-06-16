@@ -5,6 +5,8 @@ Project("{03E6ED00-8629-41D8-D64E-B5094505CA18}") = "TERRINARIUM", "Assembly-CSh
 EndProject
 Project("{03E6ED00-8629-41D8-D64E-B5094505CA18}") = "TERRINARIUM", "Assembly-CSharp.csproj", "{6FBD0B66-72C5-C8E6-5459-336FD9009730}"
 EndProject
+Project("{03E6ED00-8629-41D8-D64E-B5094505CA18}") = "TERRINARIUM", "Assembly-UnityScript-firstpass.unityproj", "{CC4DFF78-AE65-B1F5-745A-7348A0E88174}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,11 +21,15 @@ Global
 		{6FBD0B66-72C5-C8E6-5459-336FD9009730}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6FBD0B66-72C5-C8E6-5459-336FD9009730}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6FBD0B66-72C5-C8E6-5459-336FD9009730}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC4DFF78-AE65-B1F5-745A-7348A0E88174}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC4DFF78-AE65-B1F5-745A-7348A0E88174}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC4DFF78-AE65-B1F5-745A-7348A0E88174}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC4DFF78-AE65-B1F5-745A-7348A0E88174}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-																											GlobalSection(MonoDevelopProperties) = preSolution
+																																														GlobalSection(MonoDevelopProperties) = preSolution
 =======
 <<<<<<< HEAD
 																												GlobalSection(MonoDevelopProperties) = preSolution
