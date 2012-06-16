@@ -1,20 +1,9 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-<<<<<<< HEAD
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\palScript.cs">
-    <Files>
-      <File FileName="Assets\Script\BroyeurScript.cs" Line="1" Column="1" />
-      <File FileName="Assets\Script\infoUser.cs" Line="22" Column="64" />
-      <File FileName="Assets\Script\MonteChargeScript.cs" Line="1" Column="27" />
-      <File FileName="Assets\Script\TrapeBroyeur.cs" Line="18" Column="3" />
-      <File FileName="Assets\Script\palScript.cs" Line="19" Column="18" />
-=======
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\BroyeurScript.cs">
     <Files>
       <File FileName="Assets\Script\TapisRoulant.cs" Line="1" Column="1" />
-      <File FileName="Assets\NewBehaviourScript.cs" Line="1" Column="1" />
-      <File FileName="Assets\PopLapin.cs" Line="1" Column="1" />
->>>>>>> f5763d904c0b03d0fa5dfca999ee699100533c3f
+      <File FileName="Assets\Script\BroyeurScript.cs" Line="51" Column="7" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
