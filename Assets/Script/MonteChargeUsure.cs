@@ -1,11 +1,8 @@
 using UnityEngine;
 using System.Collections;
 
-public class TapisRoulant : MonoBehaviour {
+public class MonteChargeUsure : MonoBehaviour {
 
-	public float translateSpeed;
-	
-	
 	private float usure;
 	public float usureMax=100;
 	public float usureParUtilisation=1;
@@ -44,20 +41,9 @@ public class TapisRoulant : MonoBehaviour {
 		}
 	}
 	void OnTriggerEnter(Collider other) {
-        if(other.gameObject.layer==LayerMask.NameToLayer("Lapin")||other.gameObject.layer==LayerMask.NameToLayer("Boite")){
+        if(other.gameObject.layer==LayerMask.NameToLayer("Lapin")){
 			Usure();
 		}
     }
-	
-	void OnTriggerStay(Collider other) {
-        if(other.gameObject.layer==LayerMask.NameToLayer("Boite")||other.gameObject.layer==LayerMask.NameToLayer("Lapin")){
-			other.gameObject.transform.Translate(translateSpeed*Time.deltaTime,0,0);
-/*			if (other.attachedRigidbody) {
-				other.attachedRigidbody.AddForce(Vector3.right * 10);
-			}*/
-		}
-    }
-	
-	
-	
+
 }
