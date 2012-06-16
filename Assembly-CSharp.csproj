@@ -37,7 +37,6 @@
     <Reference Include="System.XML" />
 	<Reference Include="System.Core" />
 	<Reference Include="UnityEngine">
-<<<<<<< HEAD
 	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
 	</Reference>
 	<Reference Include="UnityEditor">
@@ -45,19 +44,19 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Script\TapisRoulant.cs" />
-     <Compile Include="Assets\Script\test.cs" />
-=======
-	  <HintPath>C:/Program Files (x86)/3D/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
-	</Reference>
-	<Reference Include="UnityEditor">
-	  <HintPath>C:/Program Files (x86)/3D/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
-	</Reference>
-  </ItemGroup>
-  <ItemGroup>
      <Compile Include="Assets\BroyeurScript.cs" />
      <Compile Include="Assets\PopLapin.cs" />
->>>>>>> 1f87137e3caad536d31ace2023c85ad5e8a58c72
+     <Compile Include="Assets\Script\DestroyObjectOnEnter.cs" />
+     <Compile Include="Assets\Script\DetectAssaisonement.cs" />
+     <Compile Include="Assets\Script\DetectBoite.cs" />
+     <Compile Include="Assets\Script\DetectBoiteEmpacte.cs" />
+     <Compile Include="Assets\Script\EmpacteBoite.cs" />
+     <Compile Include="Assets\Script\PaleScript.cs" />
+     <Compile Include="Assets\Script\Spawn.cs" />
+     <Compile Include="Assets\Script\SpawnViande.cs" />
+     <Compile Include="Assets\Script\StockBoite.cs" />
+     <Compile Include="Assets\Script\TapisRoulant.cs" />
+     <Compile Include="Assets\Script\TapisRoulantBoite.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
