@@ -45,6 +45,26 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Script\BroyeurScript.cs" />
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+     <Compile Include="Assets\Script\BroyeurScript.cs" />
+     <Compile Include="Assets\Script\MonteChargeScript.cs" />
+     <Compile Include="Assets\Script\PopLapin.cs" />
+     <Compile Include="Assets\Script\TapisRoulant.cs" />
+     <Compile Include="Assets\Script\TrapeBroyeur.cs" />
+     <Compile Include="Assets\Script\infoUser.cs" />
+     <Compile Include="Assets\Script\palScript.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
+      <Project>{EC3CC747-4CB4-E714-C1F4-20B83046494B}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
+=======
+     <Compile Include="Assets\BroyeurScript.cs" />
+     <Compile Include="Assets\PopLapin.cs" />
+>>>>>>> b9b5efa257a0c2f15ff957afe267444222e9c8d4
+>>>>>>> 5a3bbf44f651ca219767da4e75b01281f161a11e
      <Compile Include="Assets\Script\DestroyObjectOnEnter.cs" />
      <Compile Include="Assets\Script\DetectAssaisonement.cs" />
      <Compile Include="Assets\Script\DetectBoite.cs" />
@@ -58,6 +78,10 @@
      <Compile Include="Assets\Script\StockBoite.cs" />
      <Compile Include="Assets\Script\TapisRoulant.cs" />
      <Compile Include="Assets\Script\TapisRoulantBoite.cs" />
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 5a3bbf44f651ca219767da4e75b01281f161a11e
      <Compile Include="Assets\Script\TrapeBroyeur.cs" />
      <Compile Include="Assets\Script\infoUser.cs" />
      <Compile Include="Assets\Script\palScript.cs" />
@@ -65,6 +89,12 @@
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
       <Project>{EC3CC747-4CB4-E714-C1F4-20B83046494B}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> f5763d904c0b03d0fa5dfca999ee699100533c3f
+>>>>>>> b9b5efa257a0c2f15ff957afe267444222e9c8d4
+>>>>>>> 5a3bbf44f651ca219767da4e75b01281f161a11e
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

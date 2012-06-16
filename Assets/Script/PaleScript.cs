@@ -9,8 +9,8 @@ public class PaleScript : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		animation["PaleAnimation"].normalizedTime=animStartPos;
-		animation["PaleAnimation"].speed=animSpeedModif;
+		animation["PaleAnimationV2"].normalizedTime=animStartPos;
+		animation["PaleAnimationV2"].speed=animSpeedModif;
 	}
 	
 }

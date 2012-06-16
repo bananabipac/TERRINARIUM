@@ -37,10 +37,17 @@
     <Reference Include="System.XML" />
 	<Reference Include="System.Core" />
 	<Reference Include="UnityEngine">
+<<<<<<< HEAD
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+=======
 	  <HintPath>C:/Program Files (x86)/3D/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
 	</Reference>
 	<Reference Include="UnityEditor">
 	  <HintPath>C:/Program Files (x86)/3D/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+>>>>>>> b9b5efa257a0c2f15ff957afe267444222e9c8d4
 	</Reference>
   </ItemGroup>
   <ItemGroup>
