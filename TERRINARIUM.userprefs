@@ -1,9 +1,9 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\Usure\ProductionPart.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\BroyeurScript.cs">
     <Files>
       <File FileName="Assets\Script\TapisRoulant.cs" Line="1" Column="1" />
-      <File FileName="Assets\Script\BroyeurScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\BroyeurScript.cs" Line="57" Column="39" />
       <File FileName="Assets\Script\PaleScript.cs" Line="1" Column="1" />
       <File FileName="Assets\Script\TrapeBroyeur.cs" Line="1" Column="1" />
       <File FileName="Assets\Script\DetectAssaisonement.cs" Line="1" Column="1" />
