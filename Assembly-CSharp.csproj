@@ -44,7 +44,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Particules\script_cs\BloodScript.cs" />
+     <Compile Include="Assets\CharactersArena\script_cs\BloodScript.cs" />
      <Compile Include="Assets\Script\Boutons\BoutonDowngrader.cs" />
      <Compile Include="Assets\Script\Boutons\BoutonReparer.cs" />
      <Compile Include="Assets\Script\Boutons\BoutonUpgrader.cs" />
