@@ -9,7 +9,7 @@ public class DetectBoite : MonoBehaviour {
 	void OnTriggerEnter(Collider other) {
         if(other.gameObject.layer==LayerMask.NameToLayer("Boite")){
 			tapisRoulantMove.GetComponent<TapisRoulantBoite>().StopMove(stopDuration);
-			spawn.GetComponent<SpawnViande>().Expulse(stopDuration);
+			spawn.GetComponent<spawnviandeBocale>().Expulse(stopDuration);
 		}
     }
 }
