@@ -37,17 +37,6 @@
     <Reference Include="System.XML" />
 	<Reference Include="System.Core" />
 	<Reference Include="UnityEngine">
-<<<<<<< HEAD
-	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
-	</Reference>
-	<Reference Include="UnityEditor">
-	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
-	</Reference>
-  </ItemGroup>
-  <ItemGroup>
-     <Compile Include="Assets\Script\TapisRoulant.cs" />
-     <Compile Include="Assets\Script\test.cs" />
-=======
 	  <HintPath>C:/Program Files (x86)/3D/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
 	</Reference>
 	<Reference Include="UnityEditor">
@@ -55,9 +44,17 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\BroyeurScript.cs" />
-     <Compile Include="Assets\PopLapin.cs" />
->>>>>>> 1f87137e3caad536d31ace2023c85ad5e8a58c72
+     <Compile Include="Assets\Script\BroyeurScript.cs" />
+     <Compile Include="Assets\Script\MonteChargeScript.cs" />
+     <Compile Include="Assets\Script\PopLapin.cs" />
+     <Compile Include="Assets\Script\TapisRoulant.cs" />
+     <Compile Include="Assets\Script\TrapeBroyeur.cs" />
+     <Compile Include="Assets\Script\infoUser.cs" />
+     <Compile Include="Assets\Script\palScript.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
+      <Project>{EC3CC747-4CB4-E714-C1F4-20B83046494B}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
